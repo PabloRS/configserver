@@ -10,7 +10,7 @@ jobs:
     steps:
       - run:
           name: Build
-          command: mvn clean package
+          command: mvn -B -DskipTests clean package
 
 workflows:
   configserver:
