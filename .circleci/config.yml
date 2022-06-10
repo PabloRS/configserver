@@ -1,6 +1,6 @@
 # Circle CI configuration file
 
-version 2.1
+version: 2.1
 
 jobs:
   build:
