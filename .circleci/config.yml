@@ -9,5 +9,9 @@ jobs:
 
     steps:
       - run:
-          name: Build
+          name: build
           command: mvn clean install
+
+workflows:
+  configserver:
+    jobs: build
