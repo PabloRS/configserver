@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - checkout:
-          - path: ~/project
+          path: ~/project
       - run:
           name: Build
           command: mvn -B -DskipTests clean package
