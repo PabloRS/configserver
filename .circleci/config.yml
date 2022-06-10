@@ -11,7 +11,3 @@ jobs:
       - run:
           name: Build
           command: mvn clean install
-
-workflows:
-  configserver:
-    jobs: build
